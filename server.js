@@ -36,7 +36,7 @@ app.use(helmet({
 }));
 
 // ---------------- DATABASE ----------------
-const MONGODB_URI = process.env.MONGODB_URI || "mongodb+srv://rathijp825_db_user:JPRathi825@testing01.rl1sp6o.mongodb.net/hospital?retryWrites=true&w=majority";
+const MONGODB_URI = process.env.MONGODB_URI;
 
 mongoose.connect(MONGODB_URI);
 
