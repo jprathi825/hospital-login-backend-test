@@ -14,7 +14,7 @@ console.log("SERVER FILE LOADED");
 // CORS - Allow your frontend domain
 const allowedOrigins = [
   'http://localhost:5173',
-  'https://your-frontend-url.vercel.app' // Add your Vercel URL here after deployment
+  'https://hospital-login-frontend-test.vercel.app/'
 ];
 
 app.use(cors({
